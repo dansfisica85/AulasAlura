@@ -1,0 +1,11 @@
+public class DesafioOpcional1 {
+
+    public static void main(String[] args) {
+        
+        for (int numero = 0; numero<=100; numero = numero + 1){
+            if(numero %7 == 0){
+            System.out.printf(numero + ", ");
+        }
+    }
+ }
+}       
